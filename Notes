@@ -1,0 +1,64 @@
+With git there are 3 areas
+working area 			> staging area	 > git hub
+copy on local machine	>	git add .	 > git commit, git push
+
+so what git add does is, it puts the file in the staging area meaning now these files are ready to be committed.
+ 
+
+First create a directory that you want to push on to git
+then initialise that directory to tell it that it's going to be a git directory
+you do it by "git init" command
+
+To check what is different between us and git hub up in the sky we use 
+git status
+
+To add the file in the project
+git add <file name>
+
+The after adding lock the file in the place
+git commit -m "message for the commit"
+
+Then finally push the changes onto GitHub
+git push 
+https://www.youtube.com/watch?v=wTphObvEH9w&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=17#t=325.027968
+
+To see the list of all commits made
+git log
+Too see the list of all commits from a specific author
+git log --author="author_name"
+
+To see the differences in the files that were modified before doing git add and git commit
+git diff
+To see the differences in the file after running the git add command
+git diff --staged
+
+To delete a file
+git rm <file_name>
+then do git commit
+
+To rename a file
+git mv original_file_name new_file_name
+to move file to different folder and rename the file at the same time
+git mv old_file_name Folder_name/new_file_name
+
+If you add a file to staging area, meaning you do git add and you still want to work on that file some more
+then to bring it back from the staging area back to the working area
+git reset HEAD file_name
+
+To get earlier committed version of a file
+git log <- get the commit id of the version you want
+git checkout <first few letters of the commit id> -- <file name>
+
+To see the changes made by other users and to then merge it on to your existing project
+git pull
+(So in the beginning of each day you first can start by doing git pull to see the changes made by others)
+
+To clone a directory from github onto your local machine
+git clone <girhub path to that directory>
+
+Branches
+https://www.youtube.com/watch?v=LbanWJyLMnA&index=21&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
+
+To set proxy on to git please run both the commands.
+git config --global http.proxy http://proxy.ch.intel.com:911
+git config --global https.proxy https://proxy.ch.intel.com:911
