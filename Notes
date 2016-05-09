@@ -62,3 +62,5 @@ https://www.youtube.com/watch?v=LbanWJyLMnA&index=21&list=PL6gx4Cwl9DGAKWClAD_iK
 To set proxy on to git please run both the commands.
 git config --global http.proxy http://proxy.ch.intel.com:911
 git config --global https.proxy https://proxy.ch.intel.com:911
+
+Git Hub does not allow server hooks
