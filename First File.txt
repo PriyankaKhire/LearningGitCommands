@@ -1,4 +1,0 @@
-First line of the first file.
-Second line of the first file.
-
-Second Person made changes to this file.
