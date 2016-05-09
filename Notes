@@ -64,3 +64,12 @@ git config --global http.proxy http://proxy.ch.intel.com:911
 git config --global https.proxy https://proxy.ch.intel.com:911
 
 Git Hub does not allow server hooks
+
+
+Getting current commit id
+--------------------------
+git cat-file commit HEAD
+this gives a lot of info
+
+git rev-parse --verify HEAD
+just gives the commit id
