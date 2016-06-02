@@ -65,6 +65,8 @@ git config --global https.proxy https://proxy.ch.intel.com:911
 
 Git Hub does not allow server hooks
 
+Clone a specific git branch
+git clone -b <Branch_Name> git@github.com:user/myproject.git
 
 Getting current commit id
 --------------------------
