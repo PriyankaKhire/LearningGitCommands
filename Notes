@@ -73,3 +73,6 @@ this gives a lot of info
 
 git rev-parse --verify HEAD
 just gives the commit id
+
+To find out a git repo path go to that repo dir then cd inside .git/ and then open config file.
+The path in front of url = "<path>"
