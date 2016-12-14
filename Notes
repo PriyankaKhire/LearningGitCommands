@@ -76,3 +76,11 @@ just gives the commit id
 
 To find out a git repo path go to that repo dir then cd inside .git/ and then open config file.
 The path in front of url = "<path>"
+
+
+Suppose you have made lots of changes to your project and haven't done a pull in ages:
+to merge your existing changes into the latest git pull
+git stash
+git pull
+git stash apply
+then where ever there are merge changes just go resolve those conflicts
