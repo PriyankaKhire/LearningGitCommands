@@ -84,3 +84,6 @@ git stash
 git pull
 git stash apply
 then where ever there are merge changes just go resolve those conflicts
+
+If you want to change author of the last commit 
+https://gist.github.com/trey/9588090
