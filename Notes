@@ -87,3 +87,8 @@ then where ever there are merge changes just go resolve those conflicts
 
 If you want to change author of the last commit 
 https://gist.github.com/trey/9588090
+
+
+To undo the commit you just made:
+git reset --soft HEAD~1 
+this command would remove the files you added to git and you would have to commit them again.
